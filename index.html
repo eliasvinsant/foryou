@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ema</title>
+</head>
+<div style="text-align:center;">
+<h1> I know you hate me, but please, allow me this much</h1>
+    <h2>What was the first line from that one song that made you cry for the first time from happiness by me?</h2>
+    </html>
+</div>
+
+<input type="text" id="answer" placeholder="Type your answer here" style="display: block; margin: 0 auto; width: 300px;"/>
+<button onclick="checkAnswer()">Check answer</button>
+</div>'
+<a href="decode.html">
+<div id="resultBox" style="margin-top:20px;padding:20px;width: 300px; background:#ddd; display: none;">
+    <h2>Correct! Click here to decode the message.</h2> 
+    </div>
+</div>
+</div>
+
+<script>
+function checkAnswer() {
+  let userInput = document.getElementById("answer").value;
+
+  if (userInput === "You gave me a shoulder when I needed it") { // ← ТУК е верният отговор
+    document.getElementById("resultBox").style.display = "block";
+  } else {
+    alert("Грешен отговор!");
+  }
+}
+</script
+<body>
+    
+</body>
+</html>
